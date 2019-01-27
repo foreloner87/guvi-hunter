@@ -8,6 +8,7 @@ int main()
 	cout<<"Invalid input"<<endl;
 	return 0;
 	}
+	long ans=0;
 	int a[n],t=0;
 	for(int i=0;i<n;i++)
 	cin>>a[i];
