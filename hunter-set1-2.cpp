@@ -20,6 +20,7 @@ int main()
 		a[j]=t;
 	}
 	for(int i=n-1;i>=0;i--)
-	cout<<a[i];
+		ans=ans*10 + a[i];
+	cout<<ans;
 	return 0;
 }
