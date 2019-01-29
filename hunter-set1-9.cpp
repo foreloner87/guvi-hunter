@@ -15,7 +15,7 @@ int main()
 	 for(int j=i+1;j<n;j++)
 	  if(a[i]+a[j]==0)
 	   {
-		cout<<a[i]<<' '<<a[j]<<endl;
+		cout<<a[i]<<' '<<a[j];
 		return 0;
 	   }
    for(int k=1;k<100;k++)
@@ -23,7 +23,7 @@ int main()
 	 for(int j=i+1;j<n;j++)
 	    if((a[i]+a[j]==k)||(a[i]+a[j]==-k))
 	    {
-		 cout<<a[i]<<' '<<a[j]<<endl;
+		 cout<<a[i]<<' '<<a[j];
 		 return 0;
 	    }
 }
