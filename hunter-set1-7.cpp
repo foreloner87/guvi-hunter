@@ -13,7 +13,7 @@ int main()
 		cout<<a[i]<<' ';
 		if(i+1<n)
 		if(a[i+1]%2==0)
-		cout<<a[i+1];
+		cout<<a[i+1]<<' ';
 		i+=1;
 	}
 	return 0;
